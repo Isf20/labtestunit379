@@ -1,4 +1,4 @@
-import InputPage from 'src\pages\IndexPage.vue'
+import InputPage from 'src/pages/IndexPage.vue'
 import { shallowMount } from '@vue/test-utils'
 
 test('should show the form element on the user output', () => {
