@@ -1,4 +1,4 @@
-import InputPage from 'src/pages/IndexPage.vue'
+import InputPage from 'src\pages\IndexPage.vue'
 import { shallowMount } from '@vue/test-utils'
 
 test('should show the form element on the user output', () => {
@@ -15,6 +15,7 @@ test('should show the form element on the user output', () => {
     const wrapper = shallowMount(InputPage)
     expect(wrapper.find('button').exists()).toBe(true)
   })
+
   test('trigger click event on button ', async () => {
     const wrapper = shallowMount(InputPage)
     const button = wrapper.find('button')
